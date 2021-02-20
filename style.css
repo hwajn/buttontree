@@ -1,0 +1,145 @@
+body{
+width:100%;  
+height:100%;   
+margin-left:25px;
+margin-top:25px;
+
+}
+
+
+/* Remove default bullets */
+ul, #myUL {
+    list-style-type: none;
+  }
+  
+  /* Remove margins and padding from the parent ul */
+  #myUL {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the caret/arrow */
+  .caret {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+    bottom:0;
+    right:0;
+    
+    z-index:13;
+  }
+  
+  /* Create the caret/arrow with a unicode, and style it */
+  .caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+
+    bottom:0;
+    right:0;
+    z-index:14;
+  }
+  
+  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+  .caret-down::before {
+    transform: rotate(none);
+    bottom:0;
+    right:0;
+    z-index:15;
+  }
+  
+  /* Hide the nested list */
+  .nested {
+    display: none;
+  }
+  
+  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+  .active {
+    display: block;
+  }
+
+
+
+
+  @font-face {
+    font-family: emoticons;
+    src: url("path/emoticons.woff") format("woff") format("truetype");
+  }
+  
+
+  
+  .POST {position:absolute;
+      z-index:10;
+  vertical-align:top;}
+  
+  .USER {position:absolute;
+    z-index:9;
+    right:0;
+    bottom:0;
+  
+  }
+  
+  .LINK {position:absolute;
+    z-index:10;}
+  
+  .BACK {position:absolute;
+        z-index:-1000;}
+  
+  .GREEN {position:absolute;}
+  
+  
+  .EM {position:absolute;
+      z-index:201;}
+  .WD {position:absolute;
+      z-index:200;}
+  
+  .TEST {position:absolute;z-index:100;}
+  
+      @font-face {
+    font-family: emoticons;
+    src: url("path/emoticons.woff") format("woff") format("truetype");
+  }
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  .POSTWRITING {position:absolute;
+    left:150px;
+    top:160px;
+}
+    
+    .OPBACK {position:absolute;
+    left:100px;
+    top:180px;
+}
+    
+    .button {position:absolute;
+    left:750px;
+    top:350px;
+}
+    
+    
+    #reply1 {position:absolute;
+    left:300px;
+    top:300px;
+}
+    #reply1no1 {position:absolute;
+        left:400px;
+        top:400px;
+}
+    
+        #reply1no2 {position:absolute;
+            left:400px;
+            top:800px;
+}
+        
+    #reply2no1 {position:absolute;
+        left:400px;
+        top:400px;
+}  
