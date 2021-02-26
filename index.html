@@ -8,6 +8,37 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+
+body {width:100%;}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red; 
+  }
+.whole {transform:scale(.5);}
+
+}
+@media only screen and (min-width:601px) and (max-width: 900px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+@media only screen and (min-width:901px) and (max-width: 1200px) {
+  body {
+    background-color:white;
+  }
+}
+
+@media only screen and (min-width:1201px) {
+  body {
+    background-color:blue;}
+    .post {width:544.11px;height:90px;}
+    .test {width:544.11px;height:90px;}
+    .postop {left:0;top:-32px;height:228px;width:544.11px;}
+  
+}
+
+
+
         ul,
         #myUL {
             list-style-type: none;
@@ -72,8 +103,10 @@
 
 
         .WHOLE {position:relative;
-      left:00px;
-      top:00px;}
+      left:0vw;
+      top:0vh;
+      display: inline-block;
+    padding:20px;}
 
 .POST{position:absolute;
       font-family: clarendon-urw, serif;
@@ -87,7 +120,7 @@
         .POSTOP{position:absolute;
       font-family: clarendon-urw, serif;
       font-style: normal;
-      font-weight: 700;
+      font-weight: 400;
       letter-spacing:0pt;
       font-size:10pt;
       line-height:13pt;
@@ -111,6 +144,7 @@
       letter-spacing:0pt;
       font-size:10pt;
       right:0;
+      bottom:30px;
 text-align:right;
       color:black;
       width:544.11px; 
@@ -126,15 +160,15 @@ text-align:right;
 .BACK {position:relative;
       font-family: elliotts-jigsaw-dropshadow, sans-serif;
       font-style: normal;
-      font-weight: 400;
-      font-size:70pt;
-      line-height:50pt;
-      letter-spacing:-10pt;
-      text-align:right;
-      width:130%;
-      color:rgb(255, 0, 221);
-      left:-170px;
-      top:-100px;}
+    font-weight: 400;
+    font-size: 120pt;
+    line-height: 62pt;
+    letter-spacing: -25pt;
+    text-align: right;
+    width: 180%;
+    color: rgb(255, 0, 221);
+    left: -463px;
+    top: -244px;}
 
 .GREEN {position:absolute;}
 
@@ -147,7 +181,7 @@ text-align:right;
 
 .WD,
 .EM {position:absolute; color:rgb(0, 255, 42);
-      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-width: .5px;
       -webkit-text-stroke-color: black;}
 
 
@@ -157,7 +191,7 @@ text-align:right;
 
 <body>
 
-    <button id="buttontest" type="button" class="btn-primary" style="position:absolute">show/hide</button>
+    <button id="buttontest" type="button" class="btn-primary" style="position:absolute; top:0vh;left:0vw;">show/hide</button>
     
 
 
@@ -177,30 +211,33 @@ text-align:right;
                                                         <a href="https://www.realself.com/forum/started-invisalign">https://www.realself.com/forum/started-invisalign</a>
                                                   </div>
                                                 <span style="color:transparent;">I'm on day 4 of my first tray...or the "training tray" as my ortho<br> 
-                                                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaabllle*</span>, which I understand<br> and 
+                                                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaaabllle*</span>, which I understand<br> and 
                                                 can deal with.  What I am having a hard time dealing with is<br>
                                                 the sharp edges. The front bottom has created <span style="color:transparent;">*a sioore*</span> on my inner <br> bottom lip, I have cutouts
                                                 for elastic that is cutting up the inside of<br> my upper lip.  The edges 
                                                 on the backside <span style="color:transparent;">*offffff my tleeth* </span>are cutting<br> up my tongue.  This can’t be normal! 
                                                 I cant possibly deal with this for <br> 18 months!     Also, I find myself clenching my 
                                                 teeth <span style="color:transparent;">*al*</span> the time now...<span style="color:transparent;">*normaaaaal?*</span><br></span>
+
+                                                
                                                 <div class="USER" style="    bottom:15px;">skyeluna, member since '14, 23 posts</div>
                                                 <div class="BACK">
-                                                      JUST START-<br>
-                                                      ED INVISALIGN<br>
+                                                      JUST <br>STARTED
+                                                     INVISALIGN<br>
                                                 </div>
                                                 
-                                                <div class="GREEN">
+                                                <div class="GREEN"    style="top: 285px;
+                                                left: -11px;">
                                                     <div class="WD">
-                                                          <span style="position:absolute;    left: 112pt;
+                                                          <span style="position:absolute;    left: 115pt;
                                                           top: -201pt">uncomfortable</span>
-                                                          <span style="position:absolute; width:100px; left: 237pt;
+                                                          <span style="position:absolute; width:100px; left: 233pt;
                                                           top:-176pt;">a sore</span>
-                                                          <span style="position:absolute;width:200px;left: 205pt;
-                                                          top: -149pt;;">of my teeth</span>
-                                                          <span style="position:absolute;left: 249pt;
-                                                          top: -124pt;">all</span>
-                                                          <span style="position:absolute;left: 30pt;
+                                                          <span style="position:absolute;width:200px;left: 203pt;
+                                                          top: -150pt;;">of my teeth</span>
+                                                          <span style="position:absolute;left: 247pt;
+                                                          top: -125.5pt;">all</span>
+                                                          <span style="position:absolute;left: 9pt;
                                                           top: -111pt;">normal?</span>
                                                     </div>
                                                     <div class="EM"></div>
@@ -208,7 +245,7 @@ text-align:right;
 
                                               <div class="test" style="position:absolute;left:0;top:0;color:black;">
                                                 <span>I'm on day 4 of my first tray...or the "training tray" as my ortho<br> 
-                                                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaabllle*</span>, which I understand<br> and 
+                                                called it.  My teeth are <span style="color:transparent;">*uncomfortaaaaaabllle*</span>, which I understand<br> and 
                                                 can deal with.  What I am having a hard time dealing with is<br>
                                                 the sharp edges. The front bottom has created <span style="color:transparent;">*a sioore*</span> on my inner <br> bottom lip, I have cutouts
                                                 for elastic that is cutting up the inside of<br> my upper lip.  The edges 
@@ -221,97 +258,183 @@ text-align:right;
             <ul class="nested">
                 <li>
                     <span class="caret" style="position:relative;top:60vh;left:20vw;"></span>
-                    <div class="whole" style="position:absolute;top:60vh;left:20vw;">
+                    <div class="whole" style="position:absolute;top:60vh;left:20vw;transform:scale(.8);">
                     <div class="POST" style="position:absolute;text-align:top;color:transparent;width:544.11px;height:90px;background-color:transparent;    left: 70px;
                     top: -6px;">
-                        <p>Since I am using Invisalign I have noticed that I am not getting the<br> taste 
-                        of food any more, its just <span style="color:transparent;">*llikeeeeeeeeee chewing a flavor*</span>less<br> food.</p>
-                        <div class="USER" style="position:absolute;right:0;width:544.11px;   height:90px; top: 43px;">peterwhite, member since '14, 23 posts</div>
-                        <div class="WD" style="position:absolute;    left: 70px;
-                        top: -6px;>
-                            <span style="position:absolute; left: 154pt;
-                            top: -46pt; width:544.11px;height:34px;">like chewing a flavour</span>
+                        <p>Since I am using Invisalign I have noticed that I am not getting the taste <br>
+                        of food any more, its just <span style="color:transparent;">*llikeeeeeeeeeeeeeeeee chewiing a flavor*</span>less<br> food.</p>
+                        <div class="USER" style="position:absolute; right: -89px;width:544.11px;height:90px;top:36px;">peterwhite, member since '14, 23 posts</div>
+                        <div class="WD" style="position:absolute;left:70px;top:-6px;transform:scale(1.2);">
+                            <span style= "position:absolute;     left: 100pt;
+                            top: 10pt; width:544.11px; height:34px;">like chewing a flavour</span>
                       
                       </div>
+                      
                       <div class="test" style="position:absolute;color:rgb(26, 26, 26);width:544.11px;height:90px;    left: 70px;
                       top: -6px;background-color:transparent;">
-                        Since I am using Invisalign I have noticed that I am not getting the<br> taste 
-                        of food any more, its just <span style="color:transparent;">*llikeeeeeeeeee chewing a flavor*</span>less<br> food.
+                        Since I am using Invisalign I have noticed that I am not getting the taste <br>
+                        of food any more, its just <span style="color:transparent;">*llikeeeeeeeeeeeeeeeee chewiing a flavor*</span>less<br> food.
                         
                     
                     </div>
                     </div></div>
 
                         <ul class="nested">
-                          <li>Sencha</li>
-                          <li>Gyokuro</li>
-                          <li>Matcha</li>
-                          <li>Pi Lo Chun</li>
+                          <li><div class="whole" style="position:absolute;top:0vh;left:0vw;transform:scale(.8);">
+                            <div class="POST" style="position:absolute;color:transparent;width:500.11px;">
+                                Omg totally having this effect on me. I feel like <span style="color:transparent;">I'’mm</span> eating <span style="color:transparent;">caaaarrrrrd<br>booooooard</span>. The effort to eat food <span style="color:transparent;">that taaaaaaaaaaaaaaastes like wood</span> makes it worse... I think I will lose 10lbs before the end of the first month! 
+                                
+                                
+                            <div class="USER" style="position:relative;        right: -48px;
+                            top: 8px;">tiredofigfilters, member since '15, 14 posts</div>
+                        </div>
+                        
+                                <div class="WD" style="transform:scale(1.2);">
+                                <span style="position:absolute;     left: 249px;
+                                top: -6px;width:300px;">I'm </span>
+                                <span style="position:absolute; left: 318px;
+                                top: -7px;width:300px;">card </span>
+                                <span style="position:absolute; left: 1px;
+                                top: 8px;width:300px;">board </span>
+                                <span style="position:absolute;      left: 182px;
+                                top: 8px;width:300px;">that tastes like wood </span>
+                                </div>
+                                <div class="test" style="position:absolute;align:left;">
+                                    <div class="POST" style="position:absolute;color:black;width:500.11px;">
+                                        Omg totally having this effect on me. I feel like <span style="color:transparent;">I'’mm</span> eating <span style="color:transparent;">caaaarrrrrd<br>booooooard</span>. The effort to eat food <span style="color:transparent;">that> taaaaaaaaaaaaaaaastes like wood</span> makes it worse... I think I will lose 10lbs before the end of the first month! 
+                                
+                            </div></div></li>
+                          <li><div class="whole" style="position:relative;top:50vh;left:80vh;transform:scale(.8);">
+                            <div class="POST" style="position:absolute;color:transparent;width:500.11px;">
+                                I’m on tray 7 of 23 and still can’t taste my food. I know there are no tastebuds <span style="color:transparent;">ooooooooon my tteeth</span>. Is this all <span style="color:transparent;">in mmmmmmmmy head?</span>
+                                
+                                
+                            <div class="USER" style="position:relative;        right: -48px;
+                                   top: 8px;">coleman1236789, member since '20, 1 post</div>
+                        </div>
+                        
+                                <div class="WD" style="transform:scale(1.2);">
+                                <span style="position:absolute;   left: -2px;
+                                top: 7px;width:300px;">on my teeth </span>
+                                <span style="position:absolute;         left: 178px;
+                                top: 7px;width:300px;">in my head? </span>
+                                </div>
+                                <div class="test" style="position:absolute;align:left;">
+                                    <div class="POST" style="position:absolute;color:black;width:500.11px;">
+                                        I’m on tray 7 of 23 and still can’t taste my food. I know there are no tastebuds <span style="color:transparent;">ooooooooon my tteeth</span>. Is this all <span style="color:transparent;">in mmmmmmmmy head?
+                                
+                            </div></div></li>
+                          
+                          <li><span class="caret"></span>
+                            <div class="whole" style="position:relative;top:40vh;left:-3vh;transform:scale(.8);">
+                                <div class="POST" style="position:absolute;color:transparent;width:500.11px;">
+                                    <span style="color:transparent;">nope, I have not</span> I am glad to know I am not 	alone in this condition of losing For me, it started almost immediately after my first tray. I am now on tray 9. I asked my orthodontist about it, but he did not know about the possibility of this side effect. Does anyone know anything more about how or why this happens?
+                                    
+                                    
+                                <div class="USER" style="position:relative;        right: -48px;
+                                top: -13px;">ccolby, member since '14, 17 posts</div>
+                            </div>
+                            
+                                    <div class="WD"style="transform:scale(1.2);">
+                                    <span style="position:absolute;     left: 191px;
+                                    top: -5px;width:300px;">nope, I have not </span>
+                                    </div>
+                                    <div class="test" style="position:absolute;align:left;">
+                                        <div class="POST" style="position:absolute;color:black;width:500.11px;">
+                                            <span style="color:transparent;">nope, I have not</span>I am glad to know I am not 	alone in this condition of losing For me, it started almost immediately after my first tray. I am now on tray 9. I asked my orthodontist about it, but he did not know about the possibility of this side effect. Does anyone know anything more about how or why this happens?
+                                    
+                                </div></div>
+
+
+                            <ul class="nested">
+                              <li><div class="whole" style="position:relative;top:0vh;left:0vw;">
+                                <div class="POST" style="position:absolute;color:transparent;width:500.11px;">
+                                     have the same effect on tray one - <span style="color:transparent;">super saaaad</span> - ... food in prague surely looks good at least :-/
+                                    
+                                    
+                                <div class="USER" style="position:relative;        right: -48px;
+                                top: -13px;">ccolby, member since '14, 17 posts</div>
+                            </div>
+                            
+                                    <div class="WD"style="transform:scale(1.2);">
+                                    <span style="position:absolute;     left: 191px;
+                                    top: -5px;width:300px;">super sad </span>
+                                    </div>
+                                    <div class="test" style="position:absolute;align:left;">
+                                        <div class="POST" style="position:absolute;color:black;width:500.11px;">
+                                            have the same effect on tray one - <span style="color:transparent;">super saaaad</span> - ... food in prague surely looks good at least :-/
+                                    
+                                </div></div></li>
+                              
+ 
+                            </ul>
+                          </li>
+
                         </ul>
                       </li>
 
 
 
                                   <li>
-                                    <span class="caret" style="position:relative;top:30px;left:10px;"></span>
-                                    <div class="whole" style="position:absolute;top:23px;left:80px;">
+                                    <span class="caret" style="position:relative;top:calc(55px + 0vh);left:10px;"></span>
+                                    <div class="whole" style="position:absolute;top:calc(30px + 0vh);left:calc(50px + 0vw);transform:scale(.8);">
                                     <div class="POST" style="position:absolute;color:transparent;width:500.11px; height:119px;">
-                                        This may sound odd, but I’m <span style="color:transparent;">*wonderinnng*</span> if anyone has had 
-                                        issues with food tasting different, or more like <span style="color:transparent;">*not muuuch*</span> taste 
+                                        This may sound odd, but I’m <span style="color:transparent;">*wonderinnnnnng*</span> if anyone has had 
+                                        issues with food tasting different, or more like <span style="color:transparent;">*not muuuuuch*</span> taste 
                                         at all. I’m on my 5th set of trays and since about the 3rd set my 
-                                        bite has been “off”. Ortho <span style="color:transparent;">*says thaaaaaaat iis normal*</span>
+                                        bite has been “off”. Ortho <span style="color:transparent;">*says thaaaaaaaaaaaaattt iis normal*</span>
                                         and probably won’t 
-                                        feel right again until 6 months or so after<span style="color:transparent;"> *the completiioooooon of* </span>
+                                        feel right again until 6 months or so after<span style="color:transparent;"> *the commmmplletiioooooon of* </span>
                                         treatment. I’ve noticed recently that food is tasting odd, almost
-                                        kind of <span style="color:transparent;">*metalliccc*.</span>
+                                        kind of <span style="color:transparent;">*metallicccccc*.</span>
                                         I wonder if because of the change in my bite, 
-                                        the <span style="color:transparent;">*taaastebuds*</span> are being affected???
+                                        the <span style="color:transparent;">*taaaaasㅅttebuds*</span> are being affected???
                                         
                                     <div class="USER" style="position:absolute;    right: -89px;    top: 127px;">ccolby, member since '14, 17 posts</div>
                                 </div>
                                 
-                                        <div class="WD">
-                                        <span style="position:absolute;     left: 183px;
-                                        top: -5px;">wondering</span>
-                                        <span style="position:absolute;     left: 235px;
-                                        top: 11px;width:200px;">not much</span>
+                                        <div class="WD" style="transform:scale(1.2);">
+                                        <span style="position:absolute;   left: 155px;
+                                        top: -7px;">wondering</span>
+                                        <span style="position:absolute;         left: 212px;
+                                        top: 7px;width:200px;">not much</span>
                                         <span style="position:absolute;width:200px;    left: 0px;
-                                        top: 47px;">says that is normal</span>
-                                        <span style="position:absolute;left: 127px;
-                                        top: 63px;
+                                            top: 36px;">says that is normal</span>
+                                        <span style="position:absolute;left: 109px;
+                                        top: 51px;
                                         width: 200px;">the completion of</span>
-                                        <span style="position:absolute;left: 323px;
-                                        top: 79px;">metallic</span>
-                                        <span style="position:absolute;left: 248px;
-                                        top: 97px;">tastebuds</span>
+                                        <span style="position:absolute;left: 258px;
+                                        top: 63px;">metallic</span>
+                                        <span style="position:absolute;left: 199px;
+                                        top: 79px;">tastebuds</span>
                                         </div>
                                         <div class="test" style="position:absolute;align:left;">
                                             <div class="POST" style="position:absolute;color:black;width:500.11px; height:119px;">
-                                                This may sound odd, but I’m <span style="color:transparent;">*wonderinnng*</span> if anyone has had 
-                                                issues with food tasting different, or more like <span style="color:transparent;">*not muuuch*</span> taste 
+                                                This may sound odd, but I’m <span style="color:transparent;">*wonderinnnnnng*</span> if anyone has had 
+                                                issues with food tasting different, or more like <span style="color:transparent;">*not muuuuuch*</span> taste 
                                                 at all. I’m on my 5th set of trays and since about the 3rd set my 
-                                                bite has been “off”. Ortho <span style="color:transparent;">*says thaaaaaaat iis normal*</span>
+                                                bite has been “off”. Ortho <span style="color:transparent;">*says thaaaaaaaaaaaaattt iis normal*</span>
                                                 and probably won’t 
-                                                feel right again until 6 months or so after<span style="color:transparent;"> *the completiioooooon of* </span>
+                                                feel right again until 6 months or so after<span style="color:transparent;"> *the commmmplletiioooooon of* </span>
                                                 treatment. I’ve noticed recently that food is tasting odd, almost
-                                                kind of <span style="color:transparent;">*metalliccc*.</span>
+                                                kind of <span style="color:transparent;">*metallicccccc*.</span>
                                                 I wonder if because of the change in my bite, 
-                                                the <span style="color:transparent;">*taaastebuds*</span> are being affected???</div>
+                                                the <span style="color:transparent;">*taaaaastㅅtebuds*</span> are being affected???</div>
                                     </div></div>
                                     <ul class="nested"><li><span class="caret " style="position:relative;top:40vh;left:-5vw;"></span>
         
-                                    <div class="whole" style="position:relative;top:40vh;left:-5vw;">
+                                    <div class="whole" style="position:absolute;top:calc(30px + 30vh);left:calc(50px + 0vw);transform:scale(.8);">
                                     <div class="POST" style="position:absolute;color:transparent;width:500.11px;">
-                                        <span style="color:transparent;">I had a</span> metallic tasting beer the other <span style="color:transparent;">day..</span> But I think that was just cos <span style="color:transparent;">it was</span> Carlsberg! Are you cleaning the aligners with anything other than tooth<span style="color:transparent;">paste</span>?
+                                        <span style="color:transparent;">Ii had aaaaaa</span> metallic tasting beer the other <span style="color:transparent;">day..</span> But I think that was just cos <span style="color:transparent;">it was</span> Carlsberg! Are you cleaning the aligners with anything other than tooth<span style="color:transparent;">paste</span>?
                                         
                                         
                                     <div class="USER" style="position:relative;        right: -48px;
-                                    top: -13px;">tiredofigfilters, member since '15, 14 posts</div>
+                                    bottom:30px;">tiredofigfilters, member since '15, 14 posts</div>
                                 </div>
                                 
-                                        <div class="WD">
-                                        <span style="position:absolute;     left: 191px;
-                                        top: -5px;">I had a</span>
+                                        <div class="WD" style="transform:scale(1.2);">
+                                        <span style="position:absolute;     left: 0px;
+                                        top: -5px;width:200px;">I had a</span>
                                         <span style="position:absolute;     left: 235px;
                                         top: 11px;width:200px;">day..</span>
                                         <span style="position:absolute;width:200px;    left: 0px;
@@ -322,12 +445,12 @@ text-align:right;
                                         </div>
                                         <div class="test" style="position:absolute;align:left;">
                                             <div class="POST" style="position:absolute;color:black;width:500.11px;">
-                                                <span style="color:transparent;">I had a</span> metallic tasting beer the other <span style="color:transparent;">day..</span> But I think that was just cos <span style="color:transparent;">it was</span> Carlsberg! Are you cleaning the aligners with anything other than tooth<span style="color:transparent;">paste</span>?
+                                                <span style="color:transparent;">Ii had aaaaaa</span> metallic tasting beer the other <span style="color:transparent;">day..</span> But I think that was just cos <span style="color:transparent;">it was</span> Carlsberg! Are you cleaning the aligners with anything other than tooth<span style="color:transparent;">paste</span>?
                                         
                                     </div></div>
                                         <ul class="nested"><li><span class="caret " style="position:relative;top:40vh;left:-3vh;"></span>
         
-                                            <div class="whole" style="position:relative;top:40vh;left:-3vh;">
+                                            <div class="whole" style="position:relative;top:40vh;left:-3vh;transform:scale(.8);">
                                             <div class="POST" style="position:absolute;color:transparent;width:400px;">
                                                 Or have you by <span style="color:transparent;">any chance</span> taken zinc for <span style="color:transparent;">a cold</span>?
                                                 
@@ -336,7 +459,7 @@ text-align:right;
                                             top: -13px;">twoplusone, member since '12, 7589 posts</div>
                                         </div>
                                         
-                                                <div class="WD">
+                                                <div class="WD" style="transform:scale(1.2);">
                                                 <span style="position:absolute;     left: 191px;
                                                 top: -5px;">any chance</span>
                                                 <span style="position:absolute;     left: 235px;
@@ -350,7 +473,7 @@ text-align:right;
                                             <ul class="nested"><li><span class="caret"></span>
                                                 <span class="caret " style="position:relative;top:40vh;left:-3vh;"></span>
         
-                                            <div class="whole" style="position:relative;top:40vh;left:-3vh;">
+                                            <div class="whole" style="position:relative;top:40vh;left:-3vh;transform:scale(.8);">
                                             <div class="POST" style="position:absolute;color:transparent;width:500.11px;">
                                                 <span style="color:transparent;">nope, I have not</span> taken zinc.....
                                                 
@@ -359,7 +482,7 @@ text-align:right;
                                             top: -13px;">ccolby, member since '14, 17 posts</div>
                                         </div>
                                         
-                                                <div class="WD">
+                                                <div class="WD" style="transform:scale(1.2);">
                                                 <span style="position:absolute;     left: 191px;
                                                 top: -5px;width:300px;">nope, I have not </span>
                                                 </div>
